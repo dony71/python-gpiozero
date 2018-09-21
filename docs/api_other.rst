@@ -21,22 +21,29 @@ TimeOfDay
 =========
 
 .. autoclass:: TimeOfDay
+    :inherited-members:
+    :members:
 
 PingServer
 ==========
 
 .. autoclass:: PingServer
+    :inherited-members:
+    :members:
 
 CPUTemperature
 ==============
 
 .. autoclass:: CPUTemperature
-    :members: temperature, is_active
+    :inherited-members:
+    :members:
 
 LoadAverage
 ===========
 
 .. autoclass:: LoadAverage
+    :inherited-members:
+    :members:
 
 Base Classes
 ============
@@ -54,5 +61,6 @@ to construct classes for their own devices.
 InternalDevice
 ==============
 
-.. autoclass:: InternalDevice()
+.. autoclass:: InternalDevice
+    :inherited-members:
     :members:

@@ -192,8 +192,10 @@ RPi.GPIO
 .. module:: gpiozero.pins.rpigpio
 
 .. autoclass:: gpiozero.pins.rpigpio.RPiGPIOFactory
+    :members:
 
 .. autoclass:: gpiozero.pins.rpigpio.RPiGPIOPin
+    :members:
 
 
 RPIO
@@ -202,8 +204,10 @@ RPIO
 .. module:: gpiozero.pins.rpio
 
 .. autoclass:: gpiozero.pins.rpio.RPIOFactory
+    :members:
 
 .. autoclass:: gpiozero.pins.rpio.RPIOPin
+    :members:
 
 
 PiGPIO
@@ -212,8 +216,10 @@ PiGPIO
 .. module:: gpiozero.pins.pigpio
 
 .. autoclass:: gpiozero.pins.pigpio.PiGPIOFactory
+    :members:
 
 .. autoclass:: gpiozero.pins.pigpio.PiGPIOPin
+    :members:
 
 
 Native
@@ -222,8 +228,10 @@ Native
 .. module:: gpiozero.pins.native
 
 .. autoclass:: gpiozero.pins.native.NativeFactory
+    :members:
 
 .. autoclass:: gpiozero.pins.native.NativePin
+    :members:
 
 
 Mock
@@ -238,10 +246,13 @@ Mock
     :members:
 
 .. autoclass:: gpiozero.pins.mock.MockPWMPin
+    :members:
 
 .. autoclass:: gpiozero.pins.mock.MockConnectedPin
+    :members:
 
 .. autoclass:: gpiozero.pins.mock.MockChargingPin
+    :members:
 
 .. autoclass:: gpiozero.pins.mock.MockTriggerPin
-
+    :members:

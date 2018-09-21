@@ -36,7 +36,7 @@ Device
 ======
 
 .. autoclass:: Device(\*, pin_factory=None)
-    :members: close, closed, value, is_active
+    :members:
 
 ValuesMixin
 ===========
@@ -67,4 +67,3 @@ HoldMixin
 
 .. autoclass:: HoldMixin(...)
     :members:
-

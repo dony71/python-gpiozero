@@ -90,37 +90,37 @@ Analog to Digital Converters (ADC)
 ==================================
 
 .. autoclass:: MCP3001
-    :members: value
+    :members:
 
 .. autoclass:: MCP3002
-    :members: channel, value, differential
+    :members:
 
 .. autoclass:: MCP3004
-    :members: channel, value, differential
+    :members:
 
 .. autoclass:: MCP3008
-    :members: channel, value, differential
+    :members:
 
 .. autoclass:: MCP3201
-    :members: value
+    :members:
 
 .. autoclass:: MCP3202
-    :members: channel, value, differential
+    :members:
 
 .. autoclass:: MCP3204
-    :members: channel, value, differential
+    :members:
 
 .. autoclass:: MCP3208
-    :members: channel, value, differential
+    :members:
 
 .. autoclass:: MCP3301
-    :members: value
+    :members:
 
 .. autoclass:: MCP3302
-    :members: channel, value, differential
+    :members:
 
 .. autoclass:: MCP3304
-    :members: channel, value, differential
+    :members:
 
 Base Classes
 ============
@@ -146,4 +146,3 @@ SPIDevice
 
 .. autoclass:: SPIDevice
     :members:
-

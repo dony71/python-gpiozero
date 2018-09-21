@@ -185,16 +185,19 @@ LEDCollection
 =============
 
 .. autoclass:: LEDCollection(\*pins, pwm=False, active_high=True, initial_value=False, pin_factory=None, \*\*named_pins)
+    :inherited-members:
     :members:
 
 CompositeOutputDevice
 =====================
 
 .. autoclass:: CompositeOutputDevice(\*args, _order=None, pin_factory=None, \*\*kwargs)
+    :inherited-members:
     :members:
 
 CompositeDevice
 ===============
 
 .. autoclass:: CompositeDevice(\*args, _order=None, pin_factory=None, \*\*kwargs)
+    :inherited-members:
     :members:

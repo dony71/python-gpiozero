@@ -19,44 +19,50 @@ LED
 ===
 
 .. autoclass:: LED(pin, \*, active_high=True, initial_value=False, pin_factory=None)
-    :members: on, off, toggle, blink, pin, is_lit
+    :inherited-members:
+    :members:
 
 PWMLED
 ======
 
 .. autoclass:: PWMLED(pin, \*, active_high=True, initial_value=0, frequency=100, pin_factory=None)
-    :members: on, off, toggle, blink, pulse, pin, is_lit, value
+    :inherited-members:
+    :members:
 
 RGBLED
 ======
 
 .. autoclass:: RGBLED(red, green, blue, \*, active_high=True, initial_value=(0, 0, 0), pwm=True, pin_factory=None)
-    :members: on, off, toggle, blink, pulse, red, green, blue, is_lit, color
+    :inherited-members:
+    :members:
 
 Buzzer
 ======
 
 .. autoclass:: Buzzer(pin, \*, active_high=True, initial_value=False, pin_factory=None)
-    :members: on, off, toggle, beep, pin, is_active
+    :inherited-members:
+    :members:
 
 Motor
 =====
 
 .. autoclass:: Motor(forward, backward, \*, pwm=True, pin_factory=None)
-    :members: forward, backward, reverse, stop
+    :inherited-members:
+    :members:
 
 PhaseEnableMotor
 ================
 
 .. autoclass:: PhaseEnableMotor(phase, enable, \*, pwm=True, pin_factory=None)
-    :members: forward, backward, reverse, stop
+    :inherited-members:
+    :members:
 
 Servo
 =====
 
 .. autoclass:: Servo(pin, \*, initial_value=0, min_pulse_width=1/1000, max_pulse_width=2/1000, frame_width=20/1000, pin_factory=None)
     :inherited-members:
-    :members:
+    :members: value
 
 AngularServo
 ============
@@ -82,24 +88,27 @@ DigitalOutputDevice
 ===================
 
 .. autoclass:: DigitalOutputDevice(pin, \*, active_high=True, initial_value=False, pin_factory=None)
+    :inherited-members:
     :members:
 
 PWMOutputDevice
 ===============
 
 .. autoclass:: PWMOutputDevice(pin, \*, active_high=True, initial_value=0, frequency=100, pin_factory=None)
+    :inherited-members:
     :members:
 
 OutputDevice
 ============
 
 .. autoclass:: OutputDevice(pin, \*, active_high=True, initial_value=False, pin_factory=None)
+    :inherited-members:
     :members:
 
 GPIODevice
 ==========
 
 .. autoclass:: GPIODevice(pin, \*, pin_factory=None)
+    :inherited-members:
     :members:
     :noindex:
-
