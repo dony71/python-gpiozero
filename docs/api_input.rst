@@ -19,28 +19,32 @@ Button
 ======
 
 .. autoclass:: Button(pin, \*, pull_up=True, bounce_time=None, hold_time=1, hold_repeat=False, pin_factory=None)
-    :members: wait_for_press, wait_for_release, pin, is_pressed, is_held, hold_time, held_time, hold_repeat, pull_up, when_pressed, when_released, when_held, value, values
+    :inherited-members:
+    :members:
 
 
 Line Sensor (TRCT5000)
 ======================
 
 .. autoclass:: LineSensor(pin, \*, queue_len=5, sample_rate=100, threshold=0.5, partial=False, pin_factory=None)
-    :members: wait_for_line, wait_for_no_line, pin, line_detected, when_line, when_no_line, value, values
+    :inherited-members:
+    :members:
 
 
 Motion Sensor (D-SUN PIR)
 =========================
 
 .. autoclass:: MotionSensor(pin, \*, queue_len=1, sample_rate=10, threshold=0.5, partial=False, pin_factory=None)
-    :members: wait_for_motion, wait_for_no_motion, pin, motion_detected, when_motion, when_no_motion, value, values
+    :inherited-members:
+    :members:
 
 
 Light Sensor (LDR)
 ==================
 
 .. autoclass:: LightSensor(pin, \*, queue_len=5, charge_time_limit=0.01, threshold=0.1, partial=False, pin_factory=None)
-    :members: wait_for_light, wait_for_dark, pin, light_detected, when_light, when_dark, value, values
+    :inherited-members:
+    :members:
 
 
 Distance Sensor (HC-SR04)
