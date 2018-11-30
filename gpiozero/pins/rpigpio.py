@@ -8,7 +8,7 @@ str = type('')
 
 import warnings
 
-from RPi import GPIO
+from OPi import GPIO
 
 from .local import LocalPiFactory, LocalPiPin
 from ..exc import (
