@@ -9,6 +9,8 @@ str = type('')
 import warnings
 
 from OPi import GPIO
+GPIO.setboard(GPIO.M2P)    # Banana Pi M2+ board
+GPIO.setmode(GPIO.BOARD)   # set up BOARD BCM numbering
 
 from .local import LocalPiFactory, LocalPiPin
 from ..exc import (
