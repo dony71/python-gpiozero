@@ -9,8 +9,6 @@ str = type('')
 import warnings
 
 from OPi import GPIO
-GPIO.setboard(GPIO.M2P)    # Banana Pi M2+ board
-GPIO.setmode(GPIO.BOARD)   # set up BOARD BCM numbering
 
 from .local import LocalPiFactory, LocalPiPin
 from ..exc import (
@@ -50,7 +48,9 @@ class RPiGPIOFactory(LocalPiFactory):
 
     def __init__(self):
         super(RPiGPIOFactory, self).__init__()
-        GPIO.setmode(GPIO.BCM)
+        #GPIO.setmode(GPIO.BCM)
+        GPIO.setmode(GPIO.BOARD)   # set up BOARD BCM numbering
+        GPIO.setboard(GPIO.M2P)    # Banana Pi M2+ board
         GPIO.setwarnings(False)
         self.pin_class = RPiGPIOPin
 
