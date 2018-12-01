@@ -69,11 +69,17 @@ class RPiGPIOPin(LocalPiPin):
     GPIO_FUNCTIONS = {
         'input':   GPIO.IN,
         'output':  GPIO.OUT,
-        'i2c':     GPIO.I2C,
-        'spi':     GPIO.SPI,
-        'pwm':     GPIO.HARD_PWM,
-        'serial':  GPIO.SERIAL,
-        'unknown': GPIO.UNKNOWN,
+        '': ,
+        #'i2c':     GPIO.I2C,
+        '': ,
+        #'spi':     GPIO.SPI,
+        '': ,
+        #'pwm':     GPIO.HARD_PWM,
+        '': ,
+        #'serial':  GPIO.SERIAL,
+        '': ,
+        #'unknown': GPIO.UNKNOWN,
+        '': ,
         }
 
     GPIO_PULL_UPS = {
